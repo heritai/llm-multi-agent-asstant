@@ -1,6 +1,6 @@
 # AI Compliance Assistant 🛡️🤖
 
-**AI Compliance Copilot** is an interactive multi-agent LLM system designed to help startups and tech companies ensure their compliance with data protection regulations such as the GDPR. By guiding users through a structured dialogue and performing document-based regulatory analysis, this project aims to make legal compliance more accessible, scalable, and intelligent.
+**AI Compliance Assistant** is an interactive multi-agent LLM system designed to help startups and tech companies ensure their compliance with data protection regulations such as the GDPR. By guiding users through a structured dialogue and performing document-based regulatory analysis, this project aims to make legal compliance more accessible, scalable, and intelligent.
 
 ---
 
