@@ -2,6 +2,9 @@
 
 **AI Compliance Assistant** is an interactive multi-agent LLM system designed to help startups and tech companies ensure their compliance with data protection regulations such as the GDPR. By guiding users through a structured dialogue and performing document-based regulatory analysis, this project aims to make legal compliance more accessible, scalable, and intelligent.
 
+
+![Chatbot Dashboard](chatbot-demo.jpg)
+
 ---
 
 ## 🧠 Project Overview
@@ -39,7 +42,7 @@ The agents interact in a graph-based architecture to ensure modular, flexible, a
 
 ## 🔮 Planned Features
 
-- ✅ Local LLM support (already integrated via LM Studio & Ollama)
+- ✅ Local LLM support (already integrated via Ollama)
 - 🔍 Regulation reasoning using Symbolic Rules & Logic (future)
 - 🧠 Fine-tuned agents for specialized compliance domains (e.g. AI Act, HIPAA)
 - 🌐 Web-based interface using Streamlit or FastAPI
