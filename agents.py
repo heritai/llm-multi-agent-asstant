@@ -154,16 +154,16 @@ graph.add_edge("ai_act_retriever", "ai_act_analyser")
 graph_out = graph.compile(checkpointer=memory)
 config = {"configurable": {"thread_id": "123"}}
 
-def stream_graph_updates(user_input: str):
-    """Stream updates from the graph for each user input."""
-    for event in graph_out.stream({"messages": [{"role": "user", "content": user_input}]}, config, stream_mode="updates"):
-        for value in event.values():
-            print("Assistant:", value)
+#def stream_graph_updates(user_input: str):
+#    """Stream updates from the graph for each user input."""
+#    for event in graph_out.stream({"messages": [{"role": "user", "content": user_input}]}, config, stream_mode="updates"):
+#        for value in event.values():
+#            print("Assistant:", value)
 
-if __name__ == "__main__":
-    while True:
-        user_input = input("User: ")
-        if user_input.lower() in ["quit", "exit", "q"]:
-            print("Goodbye!")
-            break
-        stream_graph_updates(user_input)
+#if __name__ == "__main__":
+#    while True:
+#        user_input = input("User: ")
+#        if user_input.lower() in ["quit", "exit", "q"]:
+#            print("Goodbye!")
+#            break
+#        stream_graph_updates(user_input)

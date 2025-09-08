@@ -1,0 +1,1 @@
+We’re a SaaS startup in the health sector. We’re based in France, have about 15 employees, and offer AI-based tools for patient analytics. We don’t process any biometric data, but we do handle health records from hospitals.
