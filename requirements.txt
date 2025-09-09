@@ -1,0 +1,17 @@
+streamlit
+langchain
+langgraph
+langchain-core
+langchain-community
+langchain-ollama
+langchain-chroma
+langchain-huggingface
+chromadb
+pydantic
+huggingface-hub
+pdfminer.six
+# Optional: For local LLMs via Ollama
+ollama
+# Optional: For PDF loading
+PyPDF2
+# Optional: For fast vector search
