@@ -2,7 +2,7 @@
 
 **AI Compliance Assistant** is an interactive multi-agent LLM system that helps companies assess and improve compliance with AI and data protection regulations such as the GDPR and the EU AI Act. The assistant guides users through a structured dialogue, extracts key company information, and performs document-based regulatory analysis using advanced retrieval and summarization.
 
-![Chatbot Dashboard](chatbot-demo.jpg)
+![Chatbot Dashboard](chatbot-demo.jpeg)
 
 ---
 
